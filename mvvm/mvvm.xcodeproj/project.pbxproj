@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A5A8636924AC5B8F00353A0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8636824AC5B8F00353A0F /* AppDelegate.swift */; };
-		A5A8636D24AC5B8F00353A0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8636C24AC5B8F00353A0F /* ViewController.swift */; };
-		A5A8637024AC5B8F00353A0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A8636E24AC5B8F00353A0F /* Main.storyboard */; };
 		A5A8637224AC5B9000353A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A8637124AC5B9000353A0F /* Assets.xcassets */; };
 		A5A8637524AC5B9000353A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A8637324AC5B9000353A0F /* LaunchScreen.storyboard */; };
 		A5A8638924AC675B00353A0F /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A5A8638824AC675B00353A0F /* RxSwift */; };
@@ -17,16 +15,42 @@
 		A5A8638D24AC675B00353A0F /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = A5A8638C24AC675B00353A0F /* RxCocoa */; };
 		A5A8638F24AC675B00353A0F /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = A5A8638E24AC675B00353A0F /* RxBlocking */; };
 		A5A8639224AC67B900353A0F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A5A8639124AC67B900353A0F /* Alamofire */; };
+		A5D60C8D24BC39860018302F /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D60C8C24BC39860018302F /* Memo.swift */; };
+		A5D60C8F24BC3A540018302F /* MemoStorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D60C8E24BC3A540018302F /* MemoStorageType.swift */; };
+		A5D60C9324BC3B200018302F /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D60C9224BC3B200018302F /* MemoryStorage.swift */; };
+		A5D60C9524BC422A0018302F /* MemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D60C9424BC422A0018302F /* MemoListViewController.swift */; };
+		A5D60C9724BC42DE0018302F /* MemoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D60C9624BC42DE0018302F /* MemoDetailViewController.swift */; };
+		A5D60C9924BC430F0018302F /* MemoComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D60C9824BC430F0018302F /* MemoComposeViewController.swift */; };
+		A5D60C9B24BC43660018302F /* MemoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D60C9A24BC43660018302F /* MemoListViewModel.swift */; };
+		A5D60C9D24BC43920018302F /* MemoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D60C9C24BC43920018302F /* MemoDetailViewModel.swift */; };
+		A5D60C9F24BC43E30018302F /* MemoComposeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D60C9E24BC43E30018302F /* MemoComposeViewModel.swift */; };
+		A5D60CA124BC44640018302F /* ViewModelBindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D60CA024BC44640018302F /* ViewModelBindableType.swift */; };
+		A5D60CA324BC4A2D0018302F /* TransitionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D60CA224BC4A2D0018302F /* TransitionModel.swift */; };
+		A5D60CA524BC4A790018302F /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D60CA424BC4A790018302F /* Scene.swift */; };
+		A5D60CA724BC50590018302F /* ScenCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D60CA624BC50590018302F /* ScenCoordinatorType.swift */; };
+		A5D60CA924BC53830018302F /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D60CA824BC53830018302F /* SceneCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A5A8636524AC5B8F00353A0F /* mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mvvm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A8636824AC5B8F00353A0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5A8636C24AC5B8F00353A0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A5A8636F24AC5B8F00353A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5A8637124AC5B9000353A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5A8637424AC5B9000353A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5A8637624AC5B9000353A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D60C8C24BC39860018302F /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		A5D60C8E24BC3A540018302F /* MemoStorageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStorageType.swift; sourceTree = "<group>"; };
+		A5D60C9224BC3B200018302F /* MemoryStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
+		A5D60C9424BC422A0018302F /* MemoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListViewController.swift; sourceTree = "<group>"; };
+		A5D60C9624BC42DE0018302F /* MemoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailViewController.swift; sourceTree = "<group>"; };
+		A5D60C9824BC430F0018302F /* MemoComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoComposeViewController.swift; sourceTree = "<group>"; };
+		A5D60C9A24BC43660018302F /* MemoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListViewModel.swift; sourceTree = "<group>"; };
+		A5D60C9C24BC43920018302F /* MemoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailViewModel.swift; sourceTree = "<group>"; };
+		A5D60C9E24BC43E30018302F /* MemoComposeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoComposeViewModel.swift; sourceTree = "<group>"; };
+		A5D60CA024BC44640018302F /* ViewModelBindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBindableType.swift; sourceTree = "<group>"; };
+		A5D60CA224BC4A2D0018302F /* TransitionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionModel.swift; sourceTree = "<group>"; };
+		A5D60CA424BC4A790018302F /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		A5D60CA624BC50590018302F /* ScenCoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenCoordinatorType.swift; sourceTree = "<group>"; };
+		A5D60CA824BC53830018302F /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +88,82 @@
 		A5A8636724AC5B8F00353A0F /* mvvm */ = {
 			isa = PBXGroup;
 			children = (
+				A5D60C8B24BC38250018302F /* Scene */,
+				A5D60C8A24BC380D0018302F /* Service */,
+				A5D60C8924BC37F90018302F /* ViewModel */,
+				A5D60C8824BC37EE0018302F /* ViewController */,
+				A5D60C8724BC37E70018302F /* Model */,
 				A5A8636824AC5B8F00353A0F /* AppDelegate.swift */,
-				A5A8636C24AC5B8F00353A0F /* ViewController.swift */,
-				A5A8636E24AC5B8F00353A0F /* Main.storyboard */,
 				A5A8637124AC5B9000353A0F /* Assets.xcassets */,
 				A5A8637324AC5B9000353A0F /* LaunchScreen.storyboard */,
 				A5A8637624AC5B9000353A0F /* Info.plist */,
 			);
 			path = mvvm;
+			sourceTree = "<group>";
+		};
+		A5D60C8724BC37E70018302F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5D60C8C24BC39860018302F /* Memo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5D60C8824BC37EE0018302F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A5D60C9424BC422A0018302F /* MemoListViewController.swift */,
+				A5D60C9624BC42DE0018302F /* MemoDetailViewController.swift */,
+				A5D60C9824BC430F0018302F /* MemoComposeViewController.swift */,
+				A5D60CA024BC44640018302F /* ViewModelBindableType.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A5D60C8924BC37F90018302F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A5D60C9A24BC43660018302F /* MemoListViewModel.swift */,
+				A5D60C9C24BC43920018302F /* MemoDetailViewModel.swift */,
+				A5D60C9E24BC43E30018302F /* MemoComposeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A5D60C8A24BC380D0018302F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A5D60C9124BC3AFA0018302F /* CoreDataStorage */,
+				A5D60C9024BC3AEA0018302F /* MemoStorage */,
+				A5D60C8E24BC3A540018302F /* MemoStorageType.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A5D60C8B24BC38250018302F /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				A5D60CA224BC4A2D0018302F /* TransitionModel.swift */,
+				A5D60CA824BC53830018302F /* SceneCoordinator.swift */,
+				A5D60CA424BC4A790018302F /* Scene.swift */,
+				A5D60CA624BC50590018302F /* ScenCoordinatorType.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		A5D60C9024BC3AEA0018302F /* MemoStorage */ = {
+			isa = PBXGroup;
+			children = (
+				A5D60C9224BC3B200018302F /* MemoryStorage.swift */,
+			);
+			path = MemoStorage;
+			sourceTree = "<group>";
+		};
+		A5D60C9124BC3AFA0018302F /* CoreDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreDataStorage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +236,6 @@
 			files = (
 				A5A8637524AC5B9000353A0F /* LaunchScreen.storyboard in Resources */,
 				A5A8637224AC5B9000353A0F /* Assets.xcassets in Resources */,
-				A5A8637024AC5B8F00353A0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,22 +246,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A8636D24AC5B8F00353A0F /* ViewController.swift in Sources */,
+				A5D60CA324BC4A2D0018302F /* TransitionModel.swift in Sources */,
+				A5D60C9B24BC43660018302F /* MemoListViewModel.swift in Sources */,
+				A5D60C9524BC422A0018302F /* MemoListViewController.swift in Sources */,
+				A5D60C9724BC42DE0018302F /* MemoDetailViewController.swift in Sources */,
+				A5D60CA524BC4A790018302F /* Scene.swift in Sources */,
+				A5D60C9324BC3B200018302F /* MemoryStorage.swift in Sources */,
+				A5D60CA924BC53830018302F /* SceneCoordinator.swift in Sources */,
+				A5D60C8F24BC3A540018302F /* MemoStorageType.swift in Sources */,
+				A5D60C9D24BC43920018302F /* MemoDetailViewModel.swift in Sources */,
+				A5D60CA124BC44640018302F /* ViewModelBindableType.swift in Sources */,
 				A5A8636924AC5B8F00353A0F /* AppDelegate.swift in Sources */,
+				A5D60C9F24BC43E30018302F /* MemoComposeViewModel.swift in Sources */,
+				A5D60CA724BC50590018302F /* ScenCoordinatorType.swift in Sources */,
+				A5D60C8D24BC39860018302F /* Memo.swift in Sources */,
+				A5D60C9924BC430F0018302F /* MemoComposeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A5A8636E24AC5B8F00353A0F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5A8636F24AC5B8F00353A0F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A5A8637324AC5B9000353A0F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -309,7 +405,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mycisco.com.mvvm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,7 +422,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mycisco.com.mvvm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

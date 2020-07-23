@@ -15,6 +15,7 @@
 		A5A8638D24AC675B00353A0F /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = A5A8638C24AC675B00353A0F /* RxCocoa */; };
 		A5A8638F24AC675B00353A0F /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = A5A8638E24AC675B00353A0F /* RxBlocking */; };
 		A5A8639224AC67B900353A0F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A5A8639124AC67B900353A0F /* Alamofire */; };
+		A5C8D14A24C920750047C7D4 /* CommonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D14924C920750047C7D4 /* CommonViewModel.swift */; };
 		A5D60C8D24BC39860018302F /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D60C8C24BC39860018302F /* Memo.swift */; };
 		A5D60C8F24BC3A540018302F /* MemoStorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D60C8E24BC3A540018302F /* MemoStorageType.swift */; };
 		A5D60C9324BC3B200018302F /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D60C9224BC3B200018302F /* MemoryStorage.swift */; };
@@ -37,6 +38,7 @@
 		A5A8637124AC5B9000353A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5A8637424AC5B9000353A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5A8637624AC5B9000353A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5C8D14924C920750047C7D4 /* CommonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewModel.swift; sourceTree = "<group>"; };
 		A5D60C8C24BC39860018302F /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		A5D60C8E24BC3A540018302F /* MemoStorageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStorageType.swift; sourceTree = "<group>"; };
 		A5D60C9224BC3B200018302F /* MemoryStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				A5D60C9A24BC43660018302F /* MemoListViewModel.swift */,
 				A5D60C9C24BC43920018302F /* MemoDetailViewModel.swift */,
 				A5D60C9E24BC43E30018302F /* MemoComposeViewModel.swift */,
+				A5C8D14924C920750047C7D4 /* CommonViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				A5D60C9524BC422A0018302F /* MemoListViewController.swift in Sources */,
 				A5D60C9724BC42DE0018302F /* MemoDetailViewController.swift in Sources */,
 				A5D60CA524BC4A790018302F /* Scene.swift in Sources */,
+				A5C8D14A24C920750047C7D4 /* CommonViewModel.swift in Sources */,
 				A5D60C9324BC3B200018302F /* MemoryStorage.swift in Sources */,
 				A5D60CA924BC53830018302F /* SceneCoordinator.swift in Sources */,
 				A5D60C8F24BC3A540018302F /* MemoStorageType.swift in Sources */,
@@ -398,6 +402,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = mvvm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -415,6 +420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = mvvm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

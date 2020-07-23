@@ -59,17 +59,24 @@ class SceneCoordinator: SceneCoordinatorType {
     @discardableResult
     func close(animation: Bool) -> Completable {
         return Completable.create { [unowned self] compleable in
-            
             if let presentingVC = self.currnetVC.presentingViewController {
                 self.currnetVC.dismiss(animated: animation) {
                     self.currnetVC = presentingVC
                     compleable(.completed)
                 }
             } else if let navi = self.currnetVC.navigationController {
+                guard navi.popViewController(animated: animation) != nil else {
+                    compleable(.error(TranisitionError.cannotPop))
+                    return Disposables.create()
+                }
                 
+                self.currnetVC = navi.viewControllers.last!
+                compleable(.completed)
+            } else {
+                compleable(.error(TranisitionError.unknown))
             }
             
-            
+            return Disposables.create()
         }
     }
 }
